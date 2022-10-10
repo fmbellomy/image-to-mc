@@ -9,8 +9,26 @@
 </head>
 
 <body>
+  <!--title bar-->
+  <div data-tauri-drag-region class="titlebar">
+    <div data-tauri-drag-region class="titlebar-title" id="titlebar-title">
+      Image to MC
+    </div>
+    <div class="titlebar-button" id="titlebar-minimize">
+      *
+    </div>
+    <div class="titlebar-button" id="titlebar-maximize">
+      *
+    </div>
+    <div class="titlebar-button" id="titlebar-close">
+      *
+    </div>
+  </div>
+
+  <!--end title bar-->
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
+
 </body>
 
 </html>
